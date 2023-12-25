@@ -30,9 +30,14 @@ body {
     line-height: normal;
 }
 
+.header {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 .header-nav {
-    margin-top: 11px;
-    margin-bottom: 12px;
+    /* margin-top: 11px;
+    margin-bottom: 12px; */
 }
 
 .header-nav-link {
@@ -46,8 +51,8 @@ body {
 }
 
 .content {
-    margin-top: 84px;
-
+    padding-top: 44px;
+    padding-bottom: 162px;
 }
 
 .content_caption {
@@ -106,6 +111,6 @@ body {
 }
 
 .logobar_logo {
-    margin-right: 23px;
-    margin-left: 23px;
+    /* margin-right: 23px;
+    margin-left: 23px; */
 }
