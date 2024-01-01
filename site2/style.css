@@ -114,7 +114,7 @@ body {
 }
 
 .content_button_default {
-    padding: 5px 35px;
+    padding: 15px 35px;
     border: none;
     border-radius: 50px;
     background: #F25822;
@@ -147,8 +147,8 @@ body {
 }
 
 .logobar {
-    margin-top: 97px;
-    margin-bottom: 97px;
+    padding-top: 97px;
+    padding-bottom: 97px;
     display: flex;
     justify-content: space-between;
 }
