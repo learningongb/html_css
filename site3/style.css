@@ -196,3 +196,99 @@
     padding: 14px 39px;
     background: #fff;
 }
+
+.promo_img {
+    width: 800px;
+}
+
+@media (max-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 1024px / 2);
+        padding-right: calc(50% - 1024px / 2);
+    }
+
+    .wide_center {
+        padding-left: calc(50% - 736px / 2);
+        padding-right: calc(50% - 736px / 2);
+    }
+
+    .header_logo {
+        padding-left: 32px;
+    }
+
+    .header_menu {
+        padding-right: 37px;
+    }
+
+    .promo_img {
+        width: 386px;
+    }
+
+    .logo_text_the_brand {
+        font-size: 44px;
+    }
+
+    .logo_text_of_luxurious {
+        font-size: 24px;
+        gap: 4px;
+    }
+
+    .offer {
+        grid-template-columns: repeat(3, 329px);
+        grid-template-rows: 238px 164px;
+        gap: 20px;
+    }
+
+    .products_grid {
+        margin-left: calc(50% - 750px/2);
+        margin-right: calc(50% - 750px/2);
+    }
+
+}
+
+@media (max-width: 736px) {
+    .center {
+        padding-left: calc(50% - 736px / 2);
+        padding-right: calc(50% - 736px / 2);
+    }
+
+    .wide_center {
+        padding-left: calc(50% - 736px / 2);
+        padding-right: calc(50% - 736px / 2);
+    }
+
+    .header_logo {
+        padding-left: 32px;
+    }
+
+    .header_menu {
+        padding-right: 37px;
+    }
+
+    .promo_img {
+        width: 386px;
+    }
+
+    .promo {
+        gap: 39px;
+    }
+
+    .logo_text_the_brand {
+        font-size: 44px;
+    }
+
+    .logo_text_of_luxurious {
+        font-size: 24px;
+        gap: 4px;
+    }
+
+    .offer {
+        grid-template-columns: repeat(3, 232px);
+        grid-template-rows: 168px 116px;
+        gap: 20px;
+    }
+
+    .products_grid {
+        gap: 16px;
+    }
+}
