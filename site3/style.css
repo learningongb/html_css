@@ -246,7 +246,7 @@
 
 }
 
-@media (max-width: 736px) {
+@media (max-width: 768px) {
     .center {
         padding-left: calc(50% - 736px / 2);
         padding-right: calc(50% - 736px / 2);
